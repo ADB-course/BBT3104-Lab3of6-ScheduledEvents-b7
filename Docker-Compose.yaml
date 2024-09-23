@@ -85,8 +85,5 @@ services:
       - PMA_PASSWORD=5trathm0re
     volumes:
       - ./container-volumes/phpmyadmin/config.user.inc.php:/etc/phpmyadmin/config.user.inc.php
-    command: >
-      /bin/bash -c "
-      chmod 644 /etc/mysql/my.cnf &&
-      docker-entrypoint.sh mysqld
-      "
+    depends_on:
+      - mysql
