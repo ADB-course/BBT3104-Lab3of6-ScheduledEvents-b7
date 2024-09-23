@@ -4,7 +4,7 @@
 
 | **Key**                                                               | Value                                                                                                                                                                              |
 |---------------|---------------------------------------------------------|
-| **Group Name**                                                               | ? |
+| **Group Name**                                                               | B7|
 | **Semester Duration**                                                 | 19<sup>th</sup> August - 25<sup>th</sup> November 2024                                                                                                                       |
 
 ## Files to be graded:
