@@ -85,10 +85,5 @@ services:
       - PMA_PASSWORD=5trathm0re
     volumes:
       - ./container-volumes/phpmyadmin/config.user.inc.php:/etc/phpmyadmin/config.user.inc.php
-<<<<<<< HEAD
     depends on:
       -mysql
-=======
-    depends_on:
-      - mysql
->>>>>>> aace94cd0d62b7021a6b410753650fa5ba5d554d
